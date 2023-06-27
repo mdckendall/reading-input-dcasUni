@@ -4,7 +4,7 @@ class Main {
     returnLength();
   }
   
-  static public returnLength() {
+  public static int returnLength() {
     Scanner input = new Scanner(System.in);
     return input.nextLine().length();
   }
