@@ -8,6 +8,7 @@ class Main {
   
   public static int returnLength() {
     Scanner input = new Scanner(System.in);
+    System.out.println(input.nextLine().length());
     return input.nextLine().length();
   }
 }
